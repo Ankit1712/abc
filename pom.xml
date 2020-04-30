@@ -7,7 +7,11 @@
     <artifactId>hello-world</artifactId>
          <packaging>war</packaging>
     <version>1.0.0</version>
-         
+         <properties>
+
+<failOnMissingWebXml>false</failOnMissingWebXml>
+
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
